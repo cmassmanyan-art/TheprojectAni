@@ -1,0 +1,21 @@
+.donation {
+    border-top: solid grey;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    padding-top: 100px;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .card-body {
+        background: transparent;
+    }
+
+    label {
+        color: antiquewhite;
+    }
+
+
+}

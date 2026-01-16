@@ -1,0 +1,25 @@
+main {
+    width: 100%;
+    height: max-content;
+    background: fixed;
+    display: flex;
+    flex-direction: column;
+
+    background: url(https://api.sig.biz/media/hqwbe42y/forest.jpg?width=1536&height=1256&format=webp&v=1d9ec7e2d8e3870);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+
+
+    @import './box1.scss';
+    @import './box2.scss';
+    @import './box3.scss';
+    @import './styles/about.scss';
+
+    p {
+        color: antiquewhite;
+
+    }
+
+}
